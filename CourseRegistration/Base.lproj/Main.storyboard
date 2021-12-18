@@ -115,9 +115,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLC-wm-5jt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLC-wm-5jt">
                                 <rect key="frame" x="141" y="697" width="103" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SUBMIT" cornerStyle="capsule"/>
                             </button>
@@ -127,14 +126,18 @@
                         <color key="tintColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="gjc-V4-dSp" firstAttribute="top" secondItem="vHl-hz-WIa" secondAttribute="bottom" constant="258" id="6fJ-YG-lpi"/>
+                            <constraint firstItem="VLC-wm-5jt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="7qu-V9-L3U"/>
                             <constraint firstItem="A9R-qA-UEZ" firstAttribute="top" secondItem="7qf-o6-ylP" secondAttribute="bottom" constant="42.5" id="7rf-oh-72r"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xX0-zf-2xy" secondAttribute="trailing" constant="29.5" id="HKm-pi-GlQ"/>
                             <constraint firstItem="7qf-o6-ylP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QPE-pS-BwI"/>
                             <constraint firstItem="7qf-o6-ylP" firstAttribute="top" secondItem="xX0-zf-2xy" secondAttribute="bottom" constant="80.5" id="SQ4-i9-T1p"/>
                             <constraint firstItem="vHl-hz-WIa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="67" id="evt-up-vrv"/>
                             <constraint firstItem="gjc-V4-dSp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fU9-jg-c7W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VLC-wm-5jt" secondAttribute="trailing" constant="170" id="iLz-nE-Jks"/>
                             <constraint firstItem="xX0-zf-2xy" firstAttribute="top" secondItem="vHl-hz-WIa" secondAttribute="bottom" constant="81" id="jy9-kA-GRY"/>
                             <constraint firstItem="vHl-hz-WIa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="o8p-g4-FlJ"/>
+                            <constraint firstItem="VLC-wm-5jt" firstAttribute="top" secondItem="A9R-qA-UEZ" secondAttribute="bottom" constant="53.5" id="oR0-Bf-Y99"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VLC-wm-5jt" secondAttribute="bottom" constant="134" id="wgh-ea-ko1"/>
                             <constraint firstItem="A9R-qA-UEZ" firstAttribute="leading" secondItem="gjc-V4-dSp" secondAttribute="trailing" constant="22" id="xqI-Lh-h4U"/>
                         </constraints>
                     </view>
